@@ -58,7 +58,7 @@ class Geolocalizacao:
             print("{}\n\n".format(i))
 
 
-insert = "INSERT INTO localizacao(id, latitude, longitude) VALUES('/latitude/', '/longitude/')"
+insert = "INSERT INTO localizacao(id, latitude, longitude) VALUES('/latitude/', '/longitude/');"
 
 obj_geolocalizacao = Geolocalizacao
 obj_geolocalizacao.executor(obj_geolocalizacao, insert)
